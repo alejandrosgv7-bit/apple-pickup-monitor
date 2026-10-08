@@ -1,0 +1,23 @@
+# Background worker: no HTTP service, one always-on machine near NYC.
+app = "iphone-nyc-monitor"
+primary_region = "ewr"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  # Tuned for a 1 GB proxy budget over ~4 days: one zone (Staten Island excluded), every 30s
+  # from 8 to 22 NYC time and every 10 min at night. Each check downloads ~145 KB per zone.
+  INTERVAL = "30"
+  NIGHT_INTERVAL = "600"
+  ACTIVE_HOURS = "8-22"
+  CAPACITIES = "256gb,512gb"
+  LOCATIONS = "10001"
+  STORES = "R095,R415,R250,R032,R654,R251,R582,R594,R715,R612,R753"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+
+[[restart]]
+  policy = "always"
