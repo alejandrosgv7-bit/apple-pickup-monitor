@@ -24,22 +24,6 @@ USER_AGENT = (
 
 # iPhone 18 Pro Max, US models (same part number for every carrier and unlocked).
 PARTS = {
-    "MJW44LL/A": ("256gb", "black"),
-    "MJW54LL/A": ("256gb", "silver"),
-    "MJW64LL/A": ("256gb", "burgundy"),
-    "MJW74LL/A": ("256gb", "glacier"),
-    "MJW84LL/A": ("512gb", "black"),
-    "MJW94LL/A": ("512gb", "silver"),
-    "MJWA4LL/A": ("512gb", "burgundy"),
-    "MJWC4LL/A": ("512gb", "glacier"),
-    "MJWD4LL/A": ("1tb", "black"),
-    "MJWE4LL/A": ("1tb", "silver"),
-    "MJWF4LL/A": ("1tb", "burgundy"),
-    "MJWG4LL/A": ("1tb", "glacier"),
-    "MJWH4LL/A": ("2tb", "black"),
-    "MJWJ4LL/A": ("2tb", "silver"),
-    "MJWK4LL/A": ("2tb", "burgundy"),
-    "MJWL4LL/A": ("2tb", "glacier"),
     "MK1F4LL/A": ("256gb", "Night Sky"),
     "MK1H4LL/A": ("512gb", "Night Sky"),
 }
