@@ -40,7 +40,10 @@ PARTS = {
     "MJWJ4LL/A": ("2tb", "silver"),
     "MJWK4LL/A": ("2tb", "burgundy"),
     "MJWL4LL/A": ("2tb", "glacier"),
+    "MK1F4LL/A": ("256gb", "Night Sky"),
+    "MK1H4LL/A": ("512gb", "Night Sky"),
 }
+
 
 # Apple Stores in the five NYC boroughs.
 NYC_STORES = {
